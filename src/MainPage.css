@@ -1,0 +1,38 @@
+.Main {
+  text-align: center;
+}
+
+.Main-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: var(--main-bg-color);
+}
+
+.Main-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--main-tx-color);
+}
+
+.Main-description {
+  color: var(--secondary-tx-color);
+}
+
+.Main-link {
+  text-decoration: none;
+  color: var(--accent-color);
+  padding: calc(2px + 1vmin);
+  border-color: var(--accent-color);
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.Main-link:hover {
+  transition: all 0.35s ease-in-out;
+  color: var(--main-tx-color);
+  background-color: var(--accent-color);
+}
