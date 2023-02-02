@@ -1,9 +1,13 @@
 :root {
   --main-bg-color: #f2e9e4;
   --main-tx-color: #657490;
-  --secondary-bg-color: #4a4e69;
+  --secondary-bg-color: #bebbb8;
   --secondary-tx-color: #9a8c98;
   --accent-color: #c9ada7;
+  --small-size: calc(10px + 1vmin);
+  --normal-size: calc(10px + 2vmin);
+  --large-size: calc(10px + 5vmin);
+  scroll-behavior: smooth;
 }
 
 body {
@@ -18,4 +22,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a,
+a:focus {
+  text-decoration: none;
 }

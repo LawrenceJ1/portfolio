@@ -1,15 +1,12 @@
 .Main {
   text-align: center;
-}
-
-.Main-header {
+  background-color: var(--main-bg-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  background-color: var(--main-bg-color);
+  font-size: var(--normal-size);
 }
 
 .Main-name {
@@ -23,7 +20,6 @@
 }
 
 .Main-link {
-  text-decoration: none;
   color: var(--accent-color);
   padding: calc(2px + 1vmin);
   border-color: var(--accent-color);
@@ -35,4 +31,38 @@
   transition: all 0.35s ease-in-out;
   color: var(--main-tx-color);
   background-color: var(--accent-color);
+}
+
+.Main-arrow {
+  bottom: 40px;
+  color: #fff;
+  font-size: var(--large-size);
+  height: 32px;
+  left: 50%;
+  line-height: 32px;
+  margin-left: -16px;
+  position: absolute;
+  text-align: center;
+  width: 32px;
+  z-index: 3;
+}
+
+.Main-arrow-down {
+  position: relative;
+  animation: bounce 1.5s infinite;
+}
+
+.Main-arrow-down::before {
+  content: "\2193";
+}
+
+@keyframes bounce {
+  from {
+    opacity: 0;
+    top: -25px;
+  }
+  to {
+    opacity: 1;
+    top: 10px;
+  }
 }

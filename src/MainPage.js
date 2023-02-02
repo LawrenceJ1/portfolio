@@ -2,13 +2,12 @@ import "./MainPage.css"
 
 function MainPage() {
     return (
-    <div className="Main">
-      <header className="Main-header">
+    <section id="Main" className="Main">
         <p className="Main-name">
-          Weclome<br/>
+          Weclome to my Website<br/>
         </p>
         <p className="Main-description">
-          INSERT DESCRIPTION
+          I'm a passionate software engineer, who occasionally goes outside.
         </p>
         <a
           className="Main-link"
@@ -18,8 +17,10 @@ function MainPage() {
         >
           Hire Me
         </a>
-      </header>
-    </div>
+        <a href="#About" className="Main-arrow">
+          <span className="Main-arrow-down" />
+        </a>
+    </section>
     );
 }
 
