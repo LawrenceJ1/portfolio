@@ -11,9 +11,7 @@ function MainPage() {
         </p>
         <a
           className="Main-link"
-          href="https://www.linkedin.com/in/lawrence-ju-5715111b6/"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#Contact"
         >
           Hire Me
         </a>
