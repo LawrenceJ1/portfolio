@@ -26,6 +26,7 @@
   border-color: var(--accent-color);
   border-style: solid;
   border-radius: 10px;
+  z-index: 2;
 }
 
 .Main-link:hover {
