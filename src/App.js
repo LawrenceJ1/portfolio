@@ -6,6 +6,7 @@ import { Fragment, useCallback } from 'react';
 import ProjectsPage from './ProjectsPage';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import ResumePage from './ResumePage';
 
 function App() {
   const particlesInit = useCallback(async engine => {
@@ -95,6 +96,7 @@ function App() {
       <MainPage />
       <AboutPage />
       <ProjectsPage />
+      <ResumePage />
     </Fragment>
   );
 }
