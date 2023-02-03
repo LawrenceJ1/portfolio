@@ -20,6 +20,7 @@
 }
 
 .Main-link {
+  text-decoration: none;
   color: var(--accent-color);
   padding: calc(2px + 1vmin);
   border-color: var(--accent-color);
@@ -45,6 +46,7 @@
   text-align: center;
   width: 32px;
   z-index: 3;
+  transition: all 0.3s ease;
 }
 
 .Main-arrow-down {
