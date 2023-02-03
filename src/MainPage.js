@@ -15,7 +15,7 @@ function MainPage() {
         >
           Hire Me
         </a>
-        <a href="#About" className="Main-arrow">
+        <a href="#Projects" className="Main-arrow">
           <span className="Main-arrow-down" />
         </a>
     </section>
