@@ -7,7 +7,7 @@ function MainPage() {
           Weclome to my Website<br/>
         </p>
         <p className="Main-description">
-          I'm a passionate software engineer, who occasionally goes outside.
+          I'm a passionate software engineer who occasionally goes outside.
         </p>
         <a
           className="Main-link"
