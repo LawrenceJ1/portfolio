@@ -1,6 +1,10 @@
 import "./ProjectsPage.css";
 import {Container, Row, Col} from "react-bootstrap";
 import ProjectCard from "./Components/ProjectCard";
+import Minesweeper from "./Components/Minesweeper.jpg";
+import Space from "./Components/Space.png";
+import IPTracker from "./Components/IPTracker.jpg";
+import Sudoku from "./Components/Sudoku.jpg";
 
 function ProjectsPage() {
     return (
@@ -14,13 +18,17 @@ function ProjectsPage() {
                         title="Minesweeper Bot"
                         icon="fa-solid fa-land-mine-on"
                         description="A bot that can beat games of minesweeper on minsweeperonline.com. 
-                        Built using Python, PyAutoGui (a computer vision library), and a lot of math."/>
+                        Built using Python, PyAutoGui (a computer vision library), and a lot of math."
+                        alt="Minesweeper Project"
+                        src={Minesweeper}/>
                         <ProjectCard
                         href="https://github.com/LawrenceJ1/space-tourism"
                         title="Space Tourism"
                         icon="fa-solid fa-rocket"
                         description="A website that displays information about space tourism. Built using React and
-                        React Router. Deployed on Github pages."/>
+                        React Router. Deployed on Github pages."
+                        alt="Space Tourism Project"
+                        src={Space}/>
                     </Col>
                     <Col>
                         <ProjectCard 
@@ -28,7 +36,9 @@ function ProjectsPage() {
                         title="IP Tracker"
                         icon="fa-solid fa-network-wired"
                         description="An IP Tracker that displays the users IP Address, Location, Timezone, and 
-                        ISP. Created using React, Leaflet, and GeoIpAPI. Deployed on Github pages."/>
+                        ISP. Created using React, Leaflet, and GeoIpAPI. Deployed on Github pages."
+                        alt="IPTracker Project"
+                        src={IPTracker}/>
                         <ProjectCard
                         href="#"
                         title="Coming Soon"
@@ -41,7 +51,9 @@ function ProjectsPage() {
                         title="Sudoku Solver"
                         icon="fa-solid fa-table-cells"
                         description="A Sudoku Solver that can solve any Sudoku puzzle through backtracking. Built 
-                        using Python and Tkinter."/>
+                        using Python and Tkinter."
+                        alt="Sodoku Solver"
+                        src={Sudoku}/>
                         <ProjectCard
                         href="#"
                         title="Coming Soon"

@@ -20,13 +20,13 @@ function NavBar() {
         </Navbar.Collapse>
         <Navbar.Text className="col-auto col-lg-2 navbar-socials">
             <a href="https://www.linkedin.com/in/lawrence-ju-5715111b6/" target="_blank" rel="noreferrer">
-                <i class="fab fa-linkedin-in nav-icons"></i>
+                <i className="fab fa-linkedin-in nav-icons"></i>
             </a>
             <a href="https://github.com/LawrenceJ1" target="_blank" rel="noreferrer">
-                <i class="fab fa-github nav-icons"></i>
+                <i className="fab fa-github nav-icons"></i>
             </a>
             <a href="mailto:lawrencejuottawa@email.com" target="_blank" rel="noreferrer">
-                <i class="fa-solid fa-envelope nav-icons"></i>
+                <i className="fa-solid fa-envelope nav-icons"></i>
             </a>
         </Navbar.Text>
       </Container>

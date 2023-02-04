@@ -23,6 +23,7 @@ function ProjectCard(props) {
                 <div className="Project-card-display" style={display}>
                     <i className={props.icon}></i>
                     <h3 className="Project-title">{props.title}</h3>
+                    <img className="Project-image" src={props.src} alt={props.alt} />
                 </div>
                 <div className="Project-card-hover" style={hover}>
                     <p className="Project-description">{props.description}</p>

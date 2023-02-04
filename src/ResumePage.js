@@ -52,7 +52,7 @@ function ResumePage() {
             </Container>
             <a className="Resume-official" href={resume} target="_blank" rel="noreferrer">
                 Official Resume                 
-                <i class="fa-solid fa-download" />
+                <i className="fa-solid fa-download" />
             </a>
         </section>
     );
