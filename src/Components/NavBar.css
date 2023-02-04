@@ -1,0 +1,24 @@
+.navbar-navigation-items {
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.nav-icons:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 0px) {
+  .navbar-socials {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}

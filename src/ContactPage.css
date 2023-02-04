@@ -1,0 +1,29 @@
+.Contact-page {
+  background-color: rgb(208, 208, 208);
+  color: var(--main-tx-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: var(--normal-size);
+  max-width: 100vw;
+}
+
+.Contact-header {
+  color: var(--main-tx-color);
+  font-weight: bold;
+  font-size: var(--large-size);
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Contact-header::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--main-bg-color);
+  margin-top: 10px;
+}
