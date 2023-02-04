@@ -11,7 +11,9 @@ function MainPage() {
         </p>
         <a
           className="Main-link"
-          href="#Contact"
+          href="mailto:lawrencejuottawa@email.com" 
+          target="_blank" 
+          rel="noreferrer"
         >
           Hire Me
         </a>

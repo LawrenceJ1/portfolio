@@ -51,7 +51,7 @@ function ResumePage() {
                 </Row>
             </Container>
             <a className="Resume-official" href={resume} target="_blank" rel="noreferrer">
-                Official Resume                 
+                Official Resume
                 <i className="fa-solid fa-download" />
             </a>
         </section>

@@ -15,7 +15,6 @@ function NavBar() {
             <Nav.Link href="#About">About</Nav.Link>
             <Nav.Link href="#Projects">Projects</Nav.Link>
             <Nav.Link href="#Resume">Resume</Nav.Link>
-            <Nav.Link href="#Contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         <Navbar.Text className="col-auto col-lg-2 navbar-socials">

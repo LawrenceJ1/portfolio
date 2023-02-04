@@ -26,6 +26,7 @@
 .Project-card:hover {
   transform: translate(-30px, -30px);
   border-color: var(--main-tx-color);
+  box-shadow: 0 2px 20px #7bb8cc;
 }
 
 .Project-card-display {

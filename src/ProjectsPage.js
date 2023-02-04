@@ -50,7 +50,7 @@ function ProjectsPage() {
                         href="https://github.com/LawrenceJ1/sudoku-solver"
                         title="Sudoku Solver"
                         icon="fa-solid fa-table-cells"
-                        description="A Sudoku Solver that can solve any Sudoku puzzle through backtracking. Built 
+                        description="A Sudoku Solver that can solve any solvable Sudoku puzzle through backtracking. Built 
                         using Python and Tkinter."
                         alt="Sodoku Solver"
                         src={Sudoku}/>
