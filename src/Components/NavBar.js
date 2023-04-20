@@ -24,7 +24,7 @@ function NavBar() {
             <a href="https://github.com/LawrenceJ1" target="_blank" rel="noreferrer">
                 <i className="fab fa-github nav-icons"></i>
             </a>
-            <a href="mailto:lawrencejuottawa@email.com" target="_blank" rel="noreferrer">
+            <a href="mailto:lawrencejuottawa@gmail.com" target="_blank" rel="noreferrer">
                 <i className="fa-solid fa-envelope nav-icons"></i>
             </a>
         </Navbar.Text>
