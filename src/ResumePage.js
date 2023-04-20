@@ -8,6 +8,9 @@ function ResumePage() {
         <section id="Resume" className="Resume-page">
             <h1 className="Resume-header">
                 Resume
+                <a className="Resume-official" href={resume} target="_blank" rel="noreferrer">
+                    <i className="fa-solid fa-download" />
+                </a>
             </h1>
             <Container>
                 <Row>
@@ -50,10 +53,6 @@ function ResumePage() {
                     </Col>
                 </Row>
             </Container>
-            <a className="Resume-official" href={resume} target="_blank" rel="noreferrer">
-                Official Resume
-                <i className="fa-solid fa-download" />
-            </a>
         </section>
     );
 }
