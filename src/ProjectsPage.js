@@ -1,10 +1,10 @@
 import "./ProjectsPage.css";
 import {Container, Row, Col} from "react-bootstrap";
 import ProjectCard from "./Components/ProjectCard";
-import Minesweeper from "./Components/Minesweeper.jpg";
-import Space from "./Components/Space.png";
-import IPTracker from "./Components/IPTracker.jpg";
-import Sudoku from "./Components/Sudoku.jpg";
+import Minesweeper from "./Images/Minesweeper.jpg";
+import Space from "./Images/Space.png";
+import IPTracker from "./Images/IPTracker.jpg";
+import Sudoku from "./Images/Sudoku.jpg";
 
 function ProjectsPage() {
     return (
