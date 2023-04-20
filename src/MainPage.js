@@ -1,8 +1,9 @@
 import "./MainPage.css"
+import background from "./Images/background.jpg"
 
 function MainPage() {
     return (
-    <section id="Main" className="Main">
+    <section id="Main" className="Main" style={{ backgroundImage: `url(${background})` }}>
         <p className="Main-name">
           Weclome to my Website<br/>
         </p>
