@@ -25,9 +25,7 @@
 .Resume-official {
   font-size: var(--normal-size);
   color: var(--main-text-color);
-  border: 1px solid var(--accent-color);
-  background-color: var(--secondary-bg-color);
-  padding: 10px 20px;
+  padding: 5px 10px;
   text-align: center;
   text-decoration: none;
   margin: 4px 2px;
@@ -40,5 +38,4 @@
 .Resume-official:hover {
   background-color: var(--accent-color);
   color: var(--main-tx-color);
-  border: 1px solid transparent;
 }
